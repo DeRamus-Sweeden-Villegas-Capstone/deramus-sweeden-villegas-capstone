@@ -2,12 +2,9 @@ package com.codeup.deramussweedenvillegascapstone.controllers;
 
 import com.codeup.deramussweedenvillegascapstone.models.Note;
 import com.codeup.deramussweedenvillegascapstone.models.Property;
-import com.codeup.deramussweedenvillegascapstone.models.User;
 import com.codeup.deramussweedenvillegascapstone.repositories.NoteRepository;
 import com.codeup.deramussweedenvillegascapstone.repositories.PropertyRepository;
 import com.codeup.deramussweedenvillegascapstone.repositories.UserRepository;
-import org.hibernate.annotations.Parameter;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

@@ -18,6 +18,12 @@
     <label for="password">Password</label>
     <input id="password" type="password" th:field="*{password}" />
 
+<!--    <div class="error-message" style="color: red; font-weight: bold" th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></div>-->
+<!--    <div class="error-message" style="color: red; font-weight: bold" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>-->
+<!--    <div class="error-message" style="color: red; font-weight: bold" th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></div>-->
+<!--    <div class="error-message" style="color: red; font-weight: bold" th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></div>-->
+<!--    <div class="error-message" style="color: red; font-weight: bold" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></div>-->
+
     <input value="Sign me up!" type="submit" />
   </form>
 </main>
